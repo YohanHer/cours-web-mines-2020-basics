@@ -1,24 +1,19 @@
-body #main-content div.box > a,
-a.special {
-  font-size: 18px;
-  font-weight: bold;
-  font-family: sans-serif;
-
-  color: #000;
-  background-color: #fff;
+label{
+  color: rgb(86, 86, 211);
 }
 
-body #main-content {
+input[type="text"] {
+  font-size: 24px
+}
+
+.email-container{
   position: relative;
 }
 
-body #main-content div.box > a,
-a.special {
+.email-tooltip{
   position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 100px;
-  height: 100px;
-
-  display: block; /*hidden, inline, ...*/
+  right: 0;
+  top: 0;
+  font-size: 10px;
+  color: red;
 }
