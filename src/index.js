@@ -2,7 +2,8 @@ import $ from "jquery";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/style.css";
-import mainContent from "./html/index.html";
+import mainContent from "./html/exercices/forum.html";
+import "./js/forum";
 
 const $mainContent = $("#main-content");
 

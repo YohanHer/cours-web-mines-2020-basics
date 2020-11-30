@@ -1,7 +1,3 @@
-label{
-  color: rgb(86, 86, 211);
-}
-
 input[type="text"] {
   font-size: 24px
 }
@@ -15,5 +11,13 @@ input[type="text"] {
   right: 0;
   top: 0;
   font-size: 10px;
-  color: red;
+  color: rgb(218, 14, 14);
+}
+
+.msg-origin{
+  font-size: 10px;
+}
+
+.message-container{
+  padding-bottom: 286px;
 }
