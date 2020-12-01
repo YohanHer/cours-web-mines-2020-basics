@@ -1,21 +1,21 @@
-<div class="container message-container" id="card-container">
-        
-</div>
+<div class="container message-container" id="card-container"></div>
 
 <div class="card text-white bg-dark my-3 fixed-bottom">
-    <div class="card-body">
-        <form method="POST">
-            <div class="form-group">
-                <label for="author">Author</label>
-                <input type="text" class="form-control" id="author" name="author"/>
-            </div>
-            <div class="form-group">
-                <label for="msg">Your message</label>
-                <input type="text" class="form-control" id="msg" name="msg"/>
-            </div>
-            <div>
-                <button type="button" class="btn btn-primary btn-block">Send</button>
-            </div>
-        </form>
-    </div>
+  <div class="card-body">
+    <form id="message-form">
+      <div class="form-group">
+        <label for="author">Author</label>
+        <input type="text" class="form-control" id="author" name="username" />
+      </div>
+      <div class="form-group">
+        <label for="msg">Your message</label>
+        <input type="text" class="form-control" id="message" name="message" />
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary btn-block" id="send">
+          Send
+        </button>
+      </div>
+    </form>
+  </div>
 </div>
